@@ -8,7 +8,9 @@
 
     .info {
         display: flex;
-        margin-bottom: 3.25rem;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        color: var(--info);
 
         span {
             margin-right: 2.25rem;
@@ -19,13 +21,21 @@
         }
     }
 
+    .updateDate {
+        font-style: italic;
+        font-size: 0.9rem;
+        color: var(--info);
+    }
+
     .body {
+        margin: 3rem 0;
+
         h3 {
             font-size: 2.25rem;
             font-weight: 600;
             line-height: 140%;
             color: var(--heading);
-            margin: 3rem 0;
+            margin: 3rem 0 2rem;
         }
 
         p {
@@ -37,7 +47,44 @@
     }
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    color: var(--heading);
+
+    border-top: 1px solid #757575;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+
+        span {
+            display: block;
+            color: var(--heading);
+            margin-bottom: 1rem;
+        }
+
+        strong {
+            color: var(--highlight)
+        }
+
+        &.next {
+            text-align: right;
+        }
+    }
+}
+
 img.banner {
     height: 400px;
     width: 100vw;
+}
+
+.previewModeButton {
+    width: 100%;
+    height: 58px;
+    background: var(--heading);
+    border-radius: 4px;
+    margin-top: 3rem;
 }
