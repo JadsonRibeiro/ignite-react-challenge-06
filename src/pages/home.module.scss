@@ -1,0 +1,39 @@
+.postsList {
+    
+    .postItem {
+        margin-bottom: 50px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 1.85rem;
+            margin-bottom: 0.5rem;
+            color: var(--heading)
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .info {
+            color: var(--info);
+            display: flex;
+
+            span {
+                display: block;
+                margin-right: 2rem;
+                font-size: 0.9rem;
+    
+                svg {
+                    margin-right: 0.25rem;
+                }
+            }
+        }
+    }
+}
+
+.loadMore {
+    color: var(--highlight);
+    font-weight: 600;
+    font-size: 1.1rem;
+}

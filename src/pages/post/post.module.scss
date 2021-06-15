@@ -1,0 +1,43 @@
+.content {
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--heading);
+        margin: 1.5rem 0;
+    }
+
+    .info {
+        display: flex;
+        margin-bottom: 3.25rem;
+
+        span {
+            margin-right: 2.25rem;
+
+            svg {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+
+    .body {
+        h3 {
+            font-size: 2.25rem;
+            font-weight: 600;
+            line-height: 140%;
+            color: var(--heading);
+            margin: 3rem 0;
+        }
+
+        p {
+            color: var(--body);
+            font-size: 1rem;
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+img.banner {
+    height: 400px;
+    width: 100vw;
+}
